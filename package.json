@@ -1,0 +1,12 @@
+{
+  "name": "mock_server",
+  "version": "1.0.0",
+  "description": "mock jumio api",
+  "main": "app.js",
+  "author": "Andrew Amesbury",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
