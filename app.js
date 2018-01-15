@@ -3,7 +3,8 @@
 const express = require('express'),
 app = express(),
 morgan = require('morgan'),
-path = require("path");;
+path = require("path"),
+atob = require('atob');
 
 app.use(morgan('dev'));
 
