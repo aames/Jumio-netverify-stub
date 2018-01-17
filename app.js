@@ -174,7 +174,8 @@ app.listen(5678, function () {
 
 function validHeaders(req){
   if (req.get('Content-Type') === 'application/json') {
-    if (req.get('User-Agent').indexOf('nzrb') !== -1) {
+    // Configure whatever you want here.
+    if (req.get('User-Agent').indexOf('myAppName') !== -1) {
       return true;
     }
   }
